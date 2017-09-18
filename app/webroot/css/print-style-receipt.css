@@ -1,0 +1,113 @@
+html { font: 16px/1 'Open Sans', sans-serif; overflow: auto; padding: 0.5in; }
+html { background: #CDCDCD; cursor: default; }
+
+#container { box-sizing: border-box; height: 4.1in; margin: 0 auto; overflow: hidden; padding: 0.15in; width: 5.2in; }
+#container { background: #FFF; border-radius: 1px; box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5); }
+
+#receipt{
+	border: 1px solid black;
+	border-radius : 6px;	
+	width : 100%;
+	height : 90%;
+    font-size : 12px;	
+}
+table{
+	width : 100%;	
+}
+
+#tableheader{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.leftheader{
+	width : 80%;
+	text-align: left;	
+}
+
+.centerheader{
+	text-align: right;
+}
+
+.rightheader  {
+	width : 20%;
+	text-align: center;	
+	background-color: #CDCDCD;
+	font-size: 20px; 
+	color : red;
+	
+}
+#amount{
+    color : black;     
+    text-align: right;	
+}
+#datainwords{
+    background-color: #CDCDCD;  
+    font-size: 14px;    
+}
+
+.label{
+	width : 22%;
+	font-weight: bolder;
+}
+.data, #datainwords{
+	width : 78%;
+	border-bottom: 1px solid black;	
+	font-size: 14px;
+}
+#tabledata{
+	/*padding-top: 20px;*/
+	margin-top: 20px; 
+}
+
+#tablefooter{
+	border-top: 1px solid black;
+	text-align: left;
+	padding-top: 0px;
+	margin-top: 20px; 
+}
+
+.leftfooter, .rightfooter{
+	width : 50%;
+}
+
+.rightfooter{
+	padding-top : 60px;
+	border-bottom: 1px solid black;
+}
+
+#contract_id{
+	text-align : center;
+	font-weight : bold;
+	border: 1px solid black;
+	border-radius : 5px;
+}
+#footerMessage{
+    text-align: center;
+    font-size: 8px;
+    width : 100%;
+}
+
+#flashMessage{		
+	margin: 0 auto;
+	width : 20%;
+}
+
+.info {
+    background: url(../img/test-pass-icon.png) no-repeat 0 0;
+    color:green;    
+    padding-left: 20px;
+    font-weight : bolder;
+    font-size: 20px;       
+}
+
+@media print {	
+	html { background: none; padding: 0; }
+	#container { box-shadow: none; margin: 0; }	
+	.info {
+       display:none;
+    }
+}
+
+
+

@@ -1,0 +1,8 @@
+git clone ssh://5628e37a2d52710738000273@php-arrendos.rhcloud.com/~/git/php.git/
+cd php/
+
+Root User: admindQsZPph
+   Root Password: 5gegcG2aRYNZ
+   Database Name: php
+
+Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
